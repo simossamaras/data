@@ -1,6 +1,6 @@
 import pyomo.environ as pyo
 
-model = pyo.AbstractModel(name='HW4_ΣΑΜΑΡΑΣ') # Δημιουργία Μοντέλου
+model = pyo.AbstractModel(name='bike') # Δημιουργία Μοντέλου
 
 model.p = pyo.Param(within=pyo.NonNegativeIntegers) # Αριθμός περιόδων
 model.P = pyo.RangeSet(1, model.p) # Σύνολο χρονικών περιόδων από 1 ως p
