@@ -1,0 +1,14 @@
+param p := 2;
+param LU := 4000;
+param LV := 500;
+param HC := 0.03; 
+
+param : T : C MH AH SI FI :=  
+mtb 60 12 4 15 25
+tour 45 10 3 25 25;
+
+param : D :=
+1 mtb 150 
+1 tour 125
+2 mtb 200
+2 tour 150;
